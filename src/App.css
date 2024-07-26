@@ -1,0 +1,36 @@
+.App {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+.row{
+  display: flex;
+  flex-direction: column;
+}
+.parent{
+  text-align: center;
+}
+
+button{
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  font-size: large;
+  cursor: pointer;
+  margin-top: -1px;
+  margin-left: -1px;
+}
+
+.reset{
+  width: 100px;
+  height: 60px;
+  font-size: medium;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.reset:hover{
+  background-color: antiquewhite;
+}
